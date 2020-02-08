@@ -1,0 +1,14 @@
+{
+  "positions": [
+    {"lat": 55.5, "lng": 34.56, "weight": 5},
+    {"lat": 34.7, "lng": 28.4, "weight": 20},
+    {"lat": 35.7, "lng": 25.9, "weight": 200},
+    {"lat": 36.7, "lng": 26.3, "weight": 300},
+    {"lat": 32.5, "lng": 27.4, "weight": 450},
+    {"lat": 33.2, "lng": 38.4, "weight": 551}
+  ],
+  "options": {
+    "radius": 20,
+    "opacity": 0.6
+  }
+}
