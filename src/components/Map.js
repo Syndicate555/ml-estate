@@ -10,6 +10,7 @@ function Map(props) {
   const zoom = 2;
 
   useEffect(() => {
+    console.log("here");
     fetch('/location.json').then(function(response) {
       response.json().then(dataObj => {
         setLocationData(dataObj);
