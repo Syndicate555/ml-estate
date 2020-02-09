@@ -1,10 +1,12 @@
 import React from 'react';
 import GoogleMapReact from 'google-map-react';
 import {useState, useEffect} from 'react';
-import {Marker} from 'google-map-react';
+import PropertyMarker from './PropertyMarker.js';
 
 function Map(props) {
   const [locationData, setLocationData] = useState(false);
+  const [propertyData, setPropertyData] = useState(false);
+  const [showPins, setShowPins] = useState(false);
 
   const apiKey = "AIzaSyDG3J8HF8sN2K6eDoub3Vsjgh6MM_TMPIc";
   const center = {lat: 37.775, lng: -122.434};
@@ -23,6 +25,17 @@ function Map(props) {
         setLocationData(obj);
       });
     });
+
+    fetch('/estates.json').then(function(response) {
+      response.json().then(properties => {
+        properties.forEach(function(obj, i) {
+          obj.key = i;
+        });
+        setPropertyData(properties);
+        console.log(properties);
+      });
+    });
+
   }, []);
 
   return (
@@ -33,8 +46,14 @@ function Map(props) {
         defaultZoom={zoom}
         heatmapLibrary={true}
         heatmap={locationData}
-
-      />
+        onClick={() => setShowPins(!showPins)}
+      >
+        {
+          showPins && propertyData && propertyData.map(({lat, lng, key}) => {
+            return <PropertyMarker lat={lat} lng={lng} key={key} />;
+          })
+        }
+      </GoogleMapReact>
     </div>
   );
 }
