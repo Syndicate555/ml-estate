@@ -11,48 +11,9 @@ import TeamIntro from './components/TeamIntro';
 function App() {
 
   return (
-    <div id="main">
-      <Header id="header" />
-      <Introduction/>
-      <br>
-      </br>
-      <div className="map-and-listings">
-        <Map id="map" />
-        <Listings id="listings"/>
-      </div>
-      <TeamIntro/>
-      <br>
-      </br>
-      <Cards/>
-      <br>
-      </br>
-      <br>
-      </br>
-      <br>
-      </br>
-      <br>
-      </br>
-      <br>
-      </br>
-      <br>
-      </br>
-      <br>
-      </br>
-      <br>
-      </br>
-      <br>
-      </br>
-      <br>
-      </br>
-      <br>
-      </br>
-      <br>
-      </br>
-      <br>
-      </br>
-      <br>
-      </br>
-      <Team/>
+    <div className="map-and-listings">
+      <Map id="map" />
+      <Listings id="listings"/>
     </div>
   );
 }
