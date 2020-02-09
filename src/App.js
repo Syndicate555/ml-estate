@@ -5,6 +5,7 @@ import Listings from './components/Listings.js';
 import Header from './components/Header.js';
 
 function App() {
+
   return (
     <div id="main">
       <Header id="header" />

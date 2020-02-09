@@ -11,9 +11,16 @@ function Map(props) {
   const zoom = 2;
 
   useEffect(() => {
-    fetch('/location.json').then(function(response) {
-      response.json().then(dataObj => {
-        setLocationData(dataObj);
+    // {positions: [], options: {opacity: 0.6, radius: 20}}
+    let obj = {positions: [], options: {opacity: 0.6, radius: 25}};
+    fetch('/cities.json').then(function(response) {
+      response.json().then(cities => {
+        cities.forEach(function(cityObj) {
+          // {"city": "New York, NY", "lng": -73.3566912, "lat": 40.7412359, "slope": 971.4438835477702}
+          const {lat, lng, slope} = cityObj;
+          obj.positions.push({lat: lat, lng: lng, weight: slope * 1000000});
+        });
+        setLocationData(obj);
       });
     });
   }, []);
