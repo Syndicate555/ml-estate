@@ -8,8 +8,10 @@ function App() {
   return (
     <div id="main">
       <Header id="header" />
-      <Map id="map" />
-      <Listings id="listings"/>
+      <div className="map-and-listings">
+        <Map id="map" />
+        <Listings id="listings"/>
+      </div>
     </div>
   );
 }
