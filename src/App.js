@@ -9,6 +9,7 @@ import Cards from './components/Cards.js';
 import TeamIntro from './components/TeamIntro';
 
 function App() {
+
   return (
     <div id="main">
       <Header id="header" />
