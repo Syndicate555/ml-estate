@@ -1,6 +1,7 @@
 import React from 'react';
 import GoogleMapReact from 'google-map-react';
 import {useState, useEffect} from 'react';
+import {Marker} from 'google-map-react';
 
 function Map(props) {
   const [locationData, setLocationData] = useState(false);
@@ -10,7 +11,6 @@ function Map(props) {
   const zoom = 2;
 
   useEffect(() => {
-    console.log("here");
     fetch('/location.json').then(function(response) {
       response.json().then(dataObj => {
         setLocationData(dataObj);
@@ -26,6 +26,7 @@ function Map(props) {
         defaultZoom={zoom}
         heatmapLibrary={true}
         heatmap={locationData}
+
       />
     </div>
   );

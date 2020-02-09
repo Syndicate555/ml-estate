@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a45c9d81-a0b1-4ec8-a611-cb4f51364a97" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Listing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CityMarker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PropertyMarker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Listings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Listings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PredictionInfo.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581190756746</updated>
-      <workItem from="1581190760137" duration="7575000" />
+      <workItem from="1581190760137" duration="8911000" />
     </task>
     <servers />
   </component>
@@ -76,6 +78,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="982" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581205985781">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="982" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1581205985781" />
     <state x="683" y="175" key="SettingsEditor" timestamp="1581192477321">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
