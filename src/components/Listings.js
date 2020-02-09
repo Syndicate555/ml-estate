@@ -4,7 +4,7 @@ import house from "./house_item.png";
 
 function Listings() {
   return (
-    <div className="listings">
+    <div className="listings" id="listings">
       <div className="service-list">
         <a href="http://localhost:3000/"><img src={house} alt="icon" className="alignnone size-full wp-image-156 listing-image" /></a>
 

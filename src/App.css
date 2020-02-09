@@ -48,8 +48,12 @@
 
 .map-and-listings {
   display: grid;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 500px;
+  grid-template-columns: 3fr 1fr;
+  grid-template-rows: 500px;
+}
+
+#listings {
+  display: none;
 }
 
 .map {

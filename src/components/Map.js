@@ -46,7 +46,10 @@ function Map(props) {
         defaultZoom={zoom}
         heatmapLibrary={true}
         heatmap={locationData}
-        onClick={() => setShowPins(!showPins)}
+        onClick={() => {
+          setShowPins(!showPins);
+          document.getElementById('listings').style.display = "inline-block";
+        }}
       >
         {
           showPins && propertyData && propertyData.map(({lat, lng, key}) => {
