@@ -16,11 +16,6 @@ export default class Header extends Component {
         Creative Commons (Attribution-Noncommercial 3.0 Unported);
         https://www.iconfinder.com/laurareen */}
         <img src={logo} alt="store" className="navbar-brand" />
-        <ul className="navbar-nav align-items-center">
-          <li className="nav-item ml-5">
-              ML Estate
-          </li>
-        </ul>
       </NavWrapper>
     );
   }
@@ -35,9 +30,10 @@ height:90px;
   text-transform:capitalize;
 }
 .navbar-brand{
-  height:70px;
+  height:80px;
   width:140px;
-  padding: 20px;
+  padding: 5px;
+  margin:0px;
 }
 @media (max-width: 576px) {
   .navbar-nav {
