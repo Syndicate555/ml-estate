@@ -1,5 +1,6 @@
 import React from 'react';
 import house from "./house_item.png";
+import house2 from "./house_item2.png";
 
 
 function Listings() {
@@ -15,7 +16,7 @@ function Listings() {
     </div>
 
     <div className="service-list">
-        <a href="http://localhost:3000/"><img src={house} alt="icon" className="alignnone size-full wp-image-156 listing-image" /></a>
+        <a href="http://localhost:3000/"><img src={house2} alt="icon" className="alignnone size-full wp-image-156 listing-image" /></a>
 
         <div>
         <h1>1670 Longfellow Ave</h1>
