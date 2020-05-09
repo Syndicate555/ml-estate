@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Demo:
+![ezgif com-video-to-gif (2)](https://user-images.githubusercontent.com/50319868/81485020-35efcd80-9218-11ea-9977-4ecb227bb345.gif)
+
 ## Available Scripts
 
 In the project directory, you can run:
