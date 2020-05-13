@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Project Inspiration:
 In a saturated real-estate market, it has become increasingly difficult to make informed decisions about housing purchases from an investment perspective. To aid investors in taking advantage of the vast opportunities available in real-estate, our team has developed MLEstate This tool uses machine learning to more accurately determine areas where the real estate prices have the greatest potential for growth using historical housing price data from the past 25 years.
 
@@ -12,7 +10,7 @@ Using the Zillow API which provides access to housing prices over the last 25 ye
 ![ezgif com-video-to-gif (2)](https://user-images.githubusercontent.com/50319868/81485020-35efcd80-9218-11ea-9977-4ecb227bb345.gif)
 
 ## Available Scripts
-
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 In the project directory, you can run:
 
 ### `npm start`
